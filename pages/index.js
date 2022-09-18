@@ -19,7 +19,7 @@ const MEETUPS = [
   }
 ];
 
-const HomePage = () => {
+function HomePage() {
   return (
     <MeetupList
     meetups={MEETUPS}
