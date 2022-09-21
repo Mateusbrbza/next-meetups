@@ -27,7 +27,7 @@ function HomePage(props) {
   )
 };
 
-export function getStaticProps() {
+export async function getStaticProps() {
   return {
     props: {
       meetups: MEETUPS,
