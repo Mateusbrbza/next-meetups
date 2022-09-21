@@ -1,9 +1,16 @@
-import React from 'react';
+import {Fragment} from 'react';
 
-const meetupId = () => {
+import MeetupDetail from '../../components/meetups/MeetupDetail';
+
+const MeetupDetails = () => {
   return (
-    <div>index</div>
+    <MeetupDetail 
+    image="https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florianópolis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg"
+    title="A primeira reuniao da semana"
+    address="florinaopolis, flroianopliis"
+    description="descricao da reuniao "
+    />
   )
 }
 
-export default meetupId;
+export default MeetupDetails;
