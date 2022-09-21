@@ -1,6 +1,7 @@
 import React from 'react';
 
 import MeetupList from '../components/meetups/MeetupList';
+import Layout from '../components/layout/Layout';
 
 const MEETUPS = [
   {
@@ -21,9 +22,11 @@ const MEETUPS = [
 
 function HomePage() {
   return (
-    <MeetupList
-    meetups={MEETUPS}
-    />
+    <Layout>
+      <MeetupList
+      meetups={MEETUPS}
+      />
+    </Layout>
   )
 }
 
